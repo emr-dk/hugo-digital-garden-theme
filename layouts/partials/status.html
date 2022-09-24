@@ -5,6 +5,12 @@
     <span class="status">Growing 🌿</span>
     {{ else if eq "evergreen" . }}
     <span class="status">Evergreen 🌳</span>
+    {{ else if eq "python" . }}
+    <span class="status">python 🌿</span>
+    {{ else if eq "javascript" . }}
+    <span class="status">javascript 🌿</span>
+    {{ else if eq "r" . }
+    <span class="status">r 🌿</span>
     {{ else }}
     {{ end }}
 {{ end }}
